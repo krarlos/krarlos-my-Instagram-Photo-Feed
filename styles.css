@@ -1,0 +1,57 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(214, 207, 207);
+    box-sizing: border-box;
+}
+header{
+    background-color: whitesmoke;
+    padding: 15px, 8px;
+    
+}
+header, h1{
+    width: 700px;
+    margin: auto;
+    text-align: center;
+} 
+article{
+    /* border: 1px solid red;  */
+    width: 600px;
+    margin: auto;
+    margin-top: 50px;
+}
+.bloque{
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 15px;
+    align-items: center;
+    background: white;
+    
+}
+.bloque_titulo{
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+.bloque_fecha{
+    font-size: 1rem;
+    color: grey;
+    margin: 0;
+}
+.bloque2{
+    width: 600px;
+    align-items: center;
+    
+}
+.bloque3 p a{
+ color: black;
+ font-weight: bolder;
+ text-decoration: none;
+ 
+}
+.bloque3{
+    background: white;
+    
+    padding: 15px 15px;
+}
